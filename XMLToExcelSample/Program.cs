@@ -26,7 +26,6 @@ namespace XMLToExcellConverter
                 Console.WriteLine("XML to XLS Converter");
                 Console.WriteLine("Select Action:");
                 Console.WriteLine("[1] - Create a xls from a sample file with fixed fields (Id,IsElite,GoldCost,Exp)");
-                WriteInColor("[2] - Create a xls from any XML file - Disabled", ConsoleColor.DarkGray);
                 Console.WriteLine("[ESC] - Exit");
                 pressedKey = Console.ReadKey();
 
@@ -34,12 +33,6 @@ namespace XMLToExcellConverter
                 {
                     case ConsoleKey.D1:
                         RunWithErrorHandling(() => ConvertSampleXMLToExcel());
-                        break;
-                    case ConsoleKey.D2:
-                        Console.Clear();
-                        WriteInColor("Disabled option, please type a valid option", ConsoleColor.Red);
-                        Console.ReadKey();
-                        Console.Clear();
                         break;
                     case quitKey:
                         Environment.Exit(0);

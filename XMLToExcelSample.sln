@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLToExcellConverter", "XMLToExcellConverter\XMLToExcellConverter.csproj", "{C71688A9-28AA-4972-BF30-0247D3329CCA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLToExcelSample", "XMLToExcelSample\XMLToExcelSample.csproj", "{C71688A9-28AA-4972-BF30-0247D3329CCA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
