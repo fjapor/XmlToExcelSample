@@ -1,0 +1,18 @@
+﻿<AwardProps xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <AwardPropRecord>
+    <g_AwardProps>
+      <entry>
+        <Id>0</Id>
+        <IsElite>0</IsElite>
+        <GoldCost>0</GoldCost>
+        <Exp>0</Exp>
+      </entry>
+      <entry>
+        <Id>255</Id>
+        <IsElite>255</IsElite>
+        <GoldCost>255</GoldCost>
+        <Exp>255</Exp>
+      </entry>
+    </g_AwardProps>
+  </AwardPropRecord>
+</AwardProps>
